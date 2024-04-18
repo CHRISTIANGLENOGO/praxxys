@@ -1,9 +1,4 @@
 <x-app-layout>
-    <!-- <x-slot name="header">
-        <h2 class="font-semibold text-xl text-gray-800 leading-tight">
-            {{ __('Dashboard') }}
-        </h2>
-    </x-slot> -->
     <div class="flex h-screen">
         <!-- Sidebar -->
         <div class="w-64 bg-gray-800">
@@ -12,13 +7,7 @@
                 <h2 class="text-xl font-semibold mb-4">Dashboard</h2>
                 <ul>
                     <li class="mb-2">
-                        <a href="#" class="block px-4 py-2 rounded hover:bg-gray-700">Dashboard</a>
-                    </li>
-                    <li class="mb-2">
-                        <a href="#" class="block px-4 py-2 rounded hover:bg-gray-700">Analytics</a>
-                    </li>
-                    <li class="mb-2">
-                        <a href="#" class="block px-4 py-2 rounded hover:bg-gray-700">Settings</a>
+                        <a href="#" class="block px-4 py-2 rounded hover:bg-gray-700">Create</a>
                     </li>
                     <!-- Add more sidebar links as needed -->
                 </ul>
